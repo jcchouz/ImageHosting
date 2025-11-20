@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.0">
   <diagram name="第 1 页" id="iM1555-t1s7tfsDwGUTq">
-    <mxGraphModel dx="622" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1231" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,9 +143,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9jnbvKjtzoCSf6gyPoOD-31" edge="1" parent="1" source="UExzWUkpTHPrYh3gpTkP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" target="UExzWUkpTHPrYh3gpTkP-10" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="UExzWUkpTHPrYh3gpTkP-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="bf_mlp&lt;div&gt;读取Encoder子图&lt;/div&gt;" vertex="1">
           <mxGeometry height="69" width="63.5" x="236.5" y="531" as="geometry" />
         </mxCell>
@@ -178,6 +175,9 @@
         </mxCell>
         <mxCell id="9jnbvKjtzoCSf6gyPoOD-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="bf_inst_2&lt;div&gt;读取Decoder子图&lt;/div&gt;" vertex="1">
           <mxGeometry height="69" width="63.5" x="320" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="xTkVN1B8qPM2OZEP8GTd-1" edge="1" parent="1" source="UExzWUkpTHPrYh3gpTkP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.001;entryY=0.376;entryDx=0;entryDy=0;entryPerimeter=0;" target="UExzWUkpTHPrYh3gpTkP-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
