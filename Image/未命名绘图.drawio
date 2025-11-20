@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.1.0">
+  <diagram name="第 1 页" id="iM1555-t1s7tfsDwGUTq">
+    <mxGraphModel dx="1111" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="239" width="377.5" x="422.5" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="239" width="190" x="14" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="166" width="411" x="279" y="224" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="136" width="170" x="30" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="EDGen" vertex="1">
+          <mxGeometry height="170" width="310" x="140" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Encoder Batchflow" vertex="1">
+          <mxGeometry height="40" width="130" x="50" y="264" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Encoder Onnxinfer" vertex="1">
+          <mxGeometry height="40" width="130" x="50" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Decoder Batchflow&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="160" x="300" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Decoder Onnxinfer" vertex="1">
+          <mxGeometry height="40" width="130" x="315" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BeamSearch" vertex="1">
+          <mxGeometry height="60" width="130" x="520" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" value="EDGen" vertex="1">
+          <mxGeometry height="479" width="180" x="219" y="441" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Encoder Batchflow" vertex="1">
+          <mxGeometry height="40" width="130" x="43" y="551" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Encoder Onnxinfer" vertex="1">
+          <mxGeometry height="40" width="130" x="44" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Decoder Batchflow" vertex="1">
+          <mxGeometry height="40" width="130" x="449" y="541" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Decoder Onnxinfer" vertex="1">
+          <mxGeometry height="40" width="130" x="449" y="611" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="翻译业务逻辑" vertex="1">
+          <mxGeometry height="30" width="85" x="337.5" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="音频读取，vad处理，特征提取" vertex="1">
+          <mxGeometry height="50" width="85" x="207.5" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="音频读取，vad处理，特征提取" vertex="1">
+          <mxGeometry height="50" width="85" x="266.5" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BeamSearch" vertex="1">
+          <mxGeometry height="60" width="130" x="630" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="bf_mlp" vertex="1">
+          <mxGeometry height="50" width="85" x="207.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="结果处理" vertex="1">
+          <mxGeometry height="50" width="85" x="329" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="结果处理" vertex="1">
+          <mxGeometry height="50" width="85" x="266.5" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="bf_mlp" vertex="1">
+          <mxGeometry height="50" width="85" x="266.5" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-23" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="90" width="130" x="250" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-10" parent="UExzWUkpTHPrYh3gpTkP-23" style="rounded=0;whiteSpace=wrap;html=1;" value="EncodeDecodeBridge&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-15" parent="UExzWUkpTHPrYh3gpTkP-23" style="rounded=0;whiteSpace=wrap;html=1;" value="翻译业务逻辑" vertex="1">
+          <mxGeometry height="30" width="85" x="22.5" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;修改并重新导图&lt;/div&gt;修改Encoder子图输出，删除CE结果，改为encoder embeddings" vertex="1">
+          <mxGeometry height="90" width="130" x="44" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="UExzWUkpTHPrYh3gpTkP-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="修改并重新导图&lt;div&gt;修改Decoder子图输入输出，删除LastRound信号&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86" width="131" x="449" y="674" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
